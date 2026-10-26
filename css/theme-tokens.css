@@ -1,0 +1,404 @@
+/* ═══════════════════════════════════════════════════════════════════════════════
+   ZROTT UNIFIED DESIGN TOKENS & MASTER THEME CONTROLLER
+   One common file to configure all module colors, light/dark modes,
+   and primary/secondary button hover effects across all Zrott subdomains.
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ─────────────────────────────────────────────────────────────────────────────
+     1. MODULE-WISE PRIMARY THEME COLORS
+     Easily adjust the brand hue for any module right here!
+     ───────────────────────────────────────────────────────────────────────────── */
+
+  /* Main Marketing & Web (zrott.com) */
+  --main-primary-color: #7c3aed;
+  --main-primary-hover: #6d28d9;
+  --main-primary-active: #5b21b6;
+  --main-primary-light: #8b5cf6;
+  --main-primary-subtle: #f5f3ff;
+  --main-primary-border: #ddd6fe;
+  --main-primary-rgb: 124, 58, 237;
+  --main-primary-glow: rgba(124, 58, 237, 0.35);
+
+  /* Restaurant CRM & KDS (crm.zrott.com - formerly app.zrott.com) */
+  --crm-primary-color: #ff6b35;
+  --crm-primary-hover: #ff8c5a;
+  --crm-primary-active: #e55a25;
+  --crm-primary-light: #ff9d73;
+  --crm-primary-subtle: #fff3ed;
+  --crm-primary-border: #fed7aa;
+  --crm-primary-rgb: 255, 107, 53;
+  --crm-primary-glow: rgba(255, 107, 53, 0.35);
+
+  /* Link-in-Bio Platform (bio.zrott.com) */
+  --bio-primary-color: #06b6d4;
+  --bio-primary-hover: #0891b2;
+  --bio-primary-active: #0e7490;
+  --bio-primary-light: #67e8f9;
+  --bio-primary-subtle: #ecfeff;
+  --bio-primary-border: #a5f3fc;
+  --bio-primary-rgb: 6, 182, 212;
+  --bio-primary-glow: rgba(6, 182, 212, 0.35);
+
+  /* Retail Merchant Portal (seller.zrott.com) */
+  --seller-primary-color: #2563eb;
+  --seller-primary-hover: #1d4ed8;
+  --seller-primary-active: #1e40af;
+  --seller-primary-light: #60a5fa;
+  --seller-primary-subtle: #eff6ff;
+  --seller-primary-border: #bfdbfe;
+  --seller-primary-rgb: 37, 99, 235;
+  --seller-primary-glow: rgba(37, 99, 235, 0.35);
+
+  /* Customer Retail & Kirana Shop (shop.zrott.com) */
+  --shop-primary-color: #16a34a;
+  --shop-primary-hover: #15803d;
+  --shop-primary-active: #166534;
+  --shop-primary-light: #4ade80;
+  --shop-primary-subtle: #f0fdf4;
+  --shop-primary-border: #bbf7d0;
+  --shop-primary-rgb: 22, 163, 74;
+  --shop-primary-glow: rgba(22, 163, 74, 0.35);
+
+  /* Super Admin Dashboard (admin.zrott.com) */
+  --admin-primary-color: #dc2626;
+  --admin-primary-hover: #b91c1c;
+  --admin-primary-active: #991b1b;
+  --admin-primary-light: #f87171;
+  --admin-primary-subtle: #fef2f2;
+  --admin-primary-border: #fecaca;
+  --admin-primary-rgb: 220, 38, 38;
+  --admin-primary-glow: rgba(220, 38, 38, 0.35);
+
+  /* Default brand fallbacks mapped to main */
+  --brand-primary: var(--main-primary-color);
+  --brand-primary-light: var(--main-primary-light);
+  --brand-primary-dark: var(--main-primary-hover);
+  --brand-primary-rgb: var(--main-primary-rgb);
+
+  /* Typography */
+  --font-primary: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ─────────────────────────────────────────────────────────────────────────────
+     2. MASTER LIGHT THEME TOKENS (Default)
+     ───────────────────────────────────────────────────────────────────────────── */
+  --bg-primary: #ffffff;
+  --bg-page: #f8fafc;
+  --bg-dark: #f5f5f8;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f5f9;
+  --bg-subtle: #f8fafc;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-glass-border: rgba(15, 23, 42, 0.08);
+  --bg-input: rgba(15, 23, 42, 0.04);
+
+  --border-color: #e2e8f0;
+  --border-subtle: #f1f5f9;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-inverse: #ffffff;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.09);
+  --shadow-brand: 0 4px 20px rgba(var(--brand-primary-rgb), 0.25);
+
+  /* ─────────────────────────────────────────────────────────────────────────────
+     3. BUTTON DESIGN TOKENS & HOVER EFFECT VARIABLES
+     Adjust hover transforms, glows, transitions, and padding for all pages here!
+     ───────────────────────────────────────────────────────────────────────────── */
+  --btn-radius: 9999px;
+  --btn-radius-square: 12px;
+  --btn-font-weight: 600;
+  --btn-transition: all 250ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Primary Button Variables */
+  --btn-primary-bg: var(--brand-primary);
+  --btn-primary-text: #ffffff;
+  --btn-primary-border: transparent;
+  --btn-primary-hover-bg: var(--brand-primary-light);
+  --btn-primary-hover-text: #ffffff;
+  --btn-primary-hover-border: transparent;
+  --btn-primary-hover-transform: translateY(-2px);
+  --btn-primary-hover-shadow: 0 8px 24px -4px rgba(var(--brand-primary-rgb), 0.4);
+  --btn-primary-active-transform: translateY(0);
+  --btn-primary-active-shadow: 0 2px 8px rgba(var(--brand-primary-rgb), 0.25);
+
+  /* Secondary Button Variables */
+  --btn-secondary-bg: var(--bg-card);
+  --btn-secondary-text: var(--text-primary);
+  --btn-secondary-border: var(--border-color);
+  --btn-secondary-hover-bg: var(--bg-card-hover);
+  --btn-secondary-hover-text: var(--brand-primary);
+  --btn-secondary-hover-border: var(--brand-primary);
+  --btn-secondary-hover-transform: translateY(-2px);
+  --btn-secondary-hover-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  --btn-secondary-active-transform: translateY(0);
+  --btn-secondary-active-shadow: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   4. MASTER DARK THEME TOKENS
+   Activated globally via [data-theme="dark"] on <html>
+   ───────────────────────────────────────────────────────────────────────────── */
+[data-theme="dark"] {
+  --bg-primary: #0b0f19;
+  --bg-page: #070a12;
+  --bg-dark: #070a12;
+  --bg-card: #111827;
+  --bg-card-hover: #1f293d;
+  --bg-subtle: #131d33;
+  --bg-glass: rgba(17, 24, 39, 0.85);
+  --bg-glass-border: rgba(255, 255, 255, 0.1);
+  --bg-input: rgba(255, 255, 255, 0.07);
+
+  --border-color: #1e293b;
+  --border-subtle: #162032;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-inverse: #070a12;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.55);
+  --shadow-brand: 0 4px 25px rgba(var(--brand-primary-rgb), 0.35);
+
+  /* Secondary Button in Dark Mode */
+  --btn-secondary-bg: rgba(255, 255, 255, 0.06);
+  --btn-secondary-text: #f8fafc;
+  --btn-secondary-border: rgba(255, 255, 255, 0.14);
+  --btn-secondary-hover-bg: rgba(255, 255, 255, 0.12);
+  --btn-secondary-hover-text: #ffffff;
+  --btn-secondary-hover-border: var(--brand-primary-light);
+  --btn-secondary-hover-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+
+  /* Module primary light tints in dark mode */
+  --main-primary-subtle: rgba(124, 58, 237, 0.15);
+  --main-primary-border: rgba(124, 58, 237, 0.3);
+
+  --crm-primary-subtle: rgba(255, 107, 53, 0.15);
+  --crm-primary-border: rgba(255, 107, 53, 0.3);
+
+  --bio-primary-subtle: rgba(6, 182, 212, 0.15);
+  --bio-primary-border: rgba(6, 182, 212, 0.3);
+
+  --seller-primary-subtle: rgba(37, 99, 235, 0.15);
+  --seller-primary-border: rgba(37, 99, 235, 0.3);
+
+  --shop-primary-subtle: rgba(22, 163, 74, 0.15);
+  --shop-primary-border: rgba(22, 163, 74, 0.3);
+
+  --admin-primary-subtle: rgba(220, 38, 38, 0.15);
+  --admin-primary-border: rgba(220, 38, 38, 0.3);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   5. UNIFIED BUTTON STYLES & HOVER EFFECTS (DRIVEN BY TOKENS)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Standard Primary Button */
+.btn-primary,
+.btn-theme-primary {
+  background: var(--btn-primary-bg) !important;
+  color: var(--btn-primary-text) !important;
+  border: 1px solid var(--btn-primary-border) !important;
+  border-radius: var(--btn-radius);
+  font-weight: var(--btn-font-weight);
+  transition: var(--btn-transition);
+  box-shadow: var(--shadow-brand);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-theme-primary:hover {
+  background: var(--btn-primary-hover-bg) !important;
+  color: var(--btn-primary-hover-text) !important;
+  border-color: var(--btn-primary-hover-border) !important;
+  transform: var(--btn-primary-hover-transform);
+  box-shadow: var(--btn-primary-hover-shadow);
+}
+
+.btn-primary:active,
+.btn-theme-primary:active {
+  transform: var(--btn-primary-active-transform);
+  box-shadow: var(--btn-primary-active-shadow);
+}
+
+/* Standard Secondary Button */
+.btn-secondary,
+.btn-theme-secondary {
+  background: var(--btn-secondary-bg) !important;
+  color: var(--btn-secondary-text) !important;
+  border: 1px solid var(--btn-secondary-border) !important;
+  border-radius: var(--btn-radius);
+  font-weight: var(--btn-font-weight);
+  transition: var(--btn-transition);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-secondary:hover,
+.btn-theme-secondary:hover {
+  background: var(--btn-secondary-hover-bg) !important;
+  color: var(--btn-secondary-hover-text) !important;
+  border-color: var(--btn-secondary-hover-border) !important;
+  transform: var(--btn-secondary-hover-transform);
+  box-shadow: var(--btn-secondary-hover-shadow);
+}
+
+.btn-secondary:active,
+.btn-theme-secondary:active {
+  transform: var(--btn-secondary-active-transform);
+  box-shadow: var(--btn-secondary-active-shadow);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   6. MODULE-SPECIFIC BUTTON VARIANTS (Can be applied anywhere)
+   ───────────────────────────────────────────────────────────────────────────── */
+
+/* Main Website (Purple) */
+.btn-main,
+.btn-primary-main {
+  background: linear-gradient(135deg, var(--main-primary-color), var(--main-primary-hover)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px var(--main-primary-glow) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-main:hover,
+.btn-primary-main:hover {
+  background: linear-gradient(135deg, var(--main-primary-light), var(--main-primary-color)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px var(--main-primary-glow) !important;
+}
+.btn-secondary-main {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--main-primary-border) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-secondary-main:hover {
+  background: var(--main-primary-subtle) !important;
+  border-color: var(--main-primary-color) !important;
+  color: var(--main-primary-color) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* CRM (Vibrant Coral/Orange) */
+.btn-crm,
+.btn-primary-crm {
+  background: linear-gradient(135deg, var(--crm-primary-color), var(--crm-primary-active)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px var(--crm-primary-glow) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-crm:hover,
+.btn-primary-crm:hover {
+  background: linear-gradient(135deg, var(--crm-primary-light), var(--crm-primary-color)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px var(--crm-primary-glow) !important;
+}
+.btn-secondary-crm {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--crm-primary-border) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-secondary-crm:hover {
+  background: var(--crm-primary-subtle) !important;
+  border-color: var(--crm-primary-color) !important;
+  color: var(--crm-primary-color) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Link-in-Bio (Cyan / Teal) */
+.btn-bio,
+.btn-primary-bio {
+  background: linear-gradient(135deg, var(--bio-primary-color), var(--bio-primary-active)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px var(--bio-primary-glow) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-bio:hover,
+.btn-primary-bio:hover {
+  background: linear-gradient(135deg, var(--bio-primary-light), var(--bio-primary-color)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px var(--bio-primary-glow) !important;
+}
+.btn-secondary-bio {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--bio-primary-border) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-secondary-bio:hover {
+  background: var(--bio-primary-subtle) !important;
+  border-color: var(--bio-primary-color) !important;
+  color: var(--bio-primary-color) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Retail Merchant Seller (Royal Blue) */
+.btn-seller,
+.btn-primary-seller {
+  background: linear-gradient(135deg, var(--seller-primary-color), var(--seller-primary-active)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px var(--seller-primary-glow) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-seller:hover,
+.btn-primary-seller:hover {
+  background: linear-gradient(135deg, var(--seller-primary-light), var(--seller-primary-color)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px var(--seller-primary-glow) !important;
+}
+.btn-secondary-seller {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--seller-primary-border) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-secondary-seller:hover {
+  background: var(--seller-primary-subtle) !important;
+  border-color: var(--seller-primary-color) !important;
+  color: var(--seller-primary-color) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Customer Retail & Kirana Shop (Fresh Emerald Green) */
+.btn-shop,
+.btn-primary-shop {
+  background: linear-gradient(135deg, var(--shop-primary-color), var(--shop-primary-active)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px var(--shop-primary-glow) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-shop:hover,
+.btn-primary-shop:hover {
+  background: linear-gradient(135deg, var(--shop-primary-light), var(--shop-primary-color)) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px var(--shop-primary-glow) !important;
+}
+.btn-secondary-shop {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--shop-primary-border) !important;
+  transition: var(--btn-transition) !important;
+}
+.btn-secondary-shop:hover {
+  background: var(--shop-primary-subtle) !important;
+  border-color: var(--shop-primary-color) !important;
+  color: var(--shop-primary-color) !important;
+  transform: translateY(-2px) !important;
+}
