@@ -52,12 +52,14 @@
     const toggle = document.querySelector('.jw-menu-toggle');
     const mobileNav = document.querySelector('.jw-mobile-nav');
     const overlay = document.querySelector('.jw-mobile-overlay');
+    const closeMenuBtn = document.querySelector('.close-menu');
     if (!toggle || !mobileNav) return;
 
     function openMenu() {
       toggle.classList.add('active');
       mobileNav.classList.add('open');
       if (overlay) { overlay.style.display = 'block'; requestAnimationFrame(() => overlay.classList.add('show')); }
+      // if (closeMenuBtn) { closeMenuBtn.style.display = 'block'; }
       document.body.style.overflow = 'hidden';
     }
 
@@ -65,6 +67,7 @@
       toggle.classList.remove('active');
       mobileNav.classList.remove('open');
       if (overlay) { overlay.classList.remove('show'); setTimeout(() => overlay.style.display = 'none', 300); }
+      // if (closeMenuBtn) { closeMenuBtn.style.display = 'none'; }
       document.body.style.overflow = '';
     }
 
@@ -73,6 +76,7 @@
     });
 
     if (overlay) overlay.addEventListener('click', closeMenu);
+    if (closeMenuBtn) closeMenuBtn.addEventListener('click', closeMenu);
 
     // Close on nav link click
     mobileNav.querySelectorAll('a').forEach(function (link) {
@@ -84,7 +88,7 @@
      3. Scroll Reveal (IntersectionObserver)
      ──────────────────────────────────── */
   function initScrollReveal() {
-    const revealEls = document.querySelectorAll('.jw-reveal, .jw-reveal-left, .jw-reveal-right, .jw-reveal-scale');
+    const revealEls = document.querySelectorAll('.jw-reveal, .jw-reveal-left, .jw-reveal-right, .jw-reveal-bottom, .jw-reveal-scale');
     if (!revealEls.length) return;
 
     // Check for reduced motion preference
@@ -147,7 +151,7 @@
   function saveFavourites(items) {
     try {
       localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(items));
-    } catch (e) {}
+    } catch (e) { }
     updateHeaderBadge();
   }
 

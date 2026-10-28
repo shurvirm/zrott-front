@@ -9,9 +9,13 @@ $pageTitle = 'About Us — Aabhar Fine Jewellery | Ahmedabad Heritage & Artistry
 $pageDescr = 'Learn the story behind Aabhar Fine Jewellery, crafting timeless gold, diamond & bridal masterpieces in Ahmedabad with authentic Indian artisan craftsmanship.';
 $pageKeywords = 'about Aabhar jewellery, Ahmedabad jewellery heritage, goldsmith Ahmedabad, jewellery craftsmanship Gujarat, bridal jewellery makers';
 
+
+// Load header
+include(__DIR__ . '/inc/header.php');
+
 // ── Image Paths ──
-$img = 'img';
-$img_banner  = $img . '/jewel-banner-1.webp';
+$img = $jw_base.'/img';
+$img_banner  = $img . '/about-right.webp';
 $img_pattern = $img . '/pattern-cicle.webp';
 $img_prod1   = $img . '/product-1.webp';
 $img_prod2   = $img . '/product-2.webp';
@@ -24,8 +28,6 @@ $brand_email  = 'aabharjewellery@zrott.com';
 $brand_addr   = 'Science City Road, Ahmedabad, Gujarat, India';
 $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
 
-// Load header
-include(__DIR__ . '/inc/header.php');
 ?>
 
 <!-- ═══════════════════════════════════════════════════
@@ -34,15 +36,15 @@ include(__DIR__ . '/inc/header.php');
 <section class="jw-page-hero" aria-label="About Us Page Header">
   <div class="jw-page-hero-decor" aria-hidden="true"></div>
   <div class="jw-container">
-    <div class="jw-page-hero-content">
-      <nav class="jw-breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
+    <div class="jw-page-hero-content jw-stagger">
+      <nav class="jw-breadcrumb jw-reveal jw-reveal-bottom" aria-label="Breadcrumb">
+        <a href="<?php echo $jw_base; ?>">Home</a>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         <span>About Us</span>
       </nav>
-      <h1>The Legacy of <span>Aabhar</span></h1>
-      <div class="jw-ornament" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
-      <p class="jw-page-hero-sub">Honoring generations of Ahmedabad's finest goldsmiths with timeless artistry, pristine hallmarked purity, and enduring devotion to your life's greatest moments.</p>
+      <h1 class="jw-reveal jw-reveal-bottom">The Legacy of <span>Aabhar</span></h1>
+      <div class="jw-ornament jw-reveal jw-reveal-bottom" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
+      <p class="jw-page-hero-sub jw-reveal jw-reveal-bottom">Honoring generations of Ahmedabad's finest goldsmiths with timeless artistry, pristine hallmarked purity, and enduring devotion to your life's greatest moments.</p>
     </div>
   </div>
 </section>
@@ -72,11 +74,11 @@ include(__DIR__ . '/inc/header.php');
         </p>
 
         <div style="margin-top: 28px; display: flex; gap: 14px; flex-wrap: wrap;">
-          <a href="index.php#categories" class="jw-btn jw-btn-gold">
+          <a href="<?php echo $jw_base; ?>/#categories" class="jw-btn jw-btn-gold">
             Explore Collections
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
           </a>
-          <a href="contact.php" class="jw-btn jw-btn-outline">
+          <a href="<?php echo $jw_base; ?>/contact" class="jw-btn jw-btn-outline">
             Visit Ahmedabad Store
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
@@ -276,7 +278,7 @@ include(__DIR__ . '/inc/header.php');
           </div>
         </div>
 
-        <a href="contact.php" class="jw-btn jw-btn-emerald">
+        <a href="<?php echo $jw_base; ?>/contact" class="jw-btn jw-btn-emerald">
           Book a Private Consultation
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
@@ -290,17 +292,17 @@ include(__DIR__ . '/inc/header.php');
 <!-- ═══════════════════════════════════════════════════
      7. CALL TO ACTION STRIP
      ═══════════════════════════════════════════════════ -->
-<section class="jw-festive" aria-label="Visit us call to action">
+<section class="jw-festive py-5 px-3" aria-label="Visit us call to action">
   <div class="jw-container">
     <h2 class="jw-reveal">Experience the Sparkle of Aabhar</h2>
     <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
     <p class="jw-reveal">Visit our flagship Ahmedabad showroom for a warm, personalized jewellery experience.</p>
     <div style="margin-top: 24px; display: inline-flex; gap: 14px; flex-wrap: wrap;" class="jw-reveal">
-      <a href="contact.php" class="jw-btn jw-btn-white">
+      <a href="<?php echo $jw_base; ?>/contact" class="jw-btn jw-btn-white">
         Find Our Showroom
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
-      <a href="index.php#categories" class="jw-btn jw-btn-gold">
+      <a href="<?php echo $jw_base; ?>/#categories" class="jw-btn jw-btn-gold">
         View Collections
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>

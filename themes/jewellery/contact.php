@@ -17,13 +17,7 @@ $img_prod1   = $img . '/product-1.webp';
 $img_prod2   = $img . '/product-2.webp';
 $img_prod3   = $img . '/product-3.webp';
 
-// ── Configurable Contact Info ──
-$brand_name   = 'Aabhar Fine Jewellery';
-$brand_phone  = '+91 123-456-7890';
-$brand_email  = 'aabharjewellery@zrott.com';
-$brand_addr   = 'Science City Road, Ahmedabad, Gujarat, India';
-$brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
-$brand_wa     = 'https://wa.me/911234567890';
+
 
 // Load header
 include(__DIR__ . '/inc/header.php');
@@ -35,15 +29,15 @@ include(__DIR__ . '/inc/header.php');
 <section class="jw-page-hero" aria-label="Contact Page Header">
   <div class="jw-page-hero-decor" aria-hidden="true"></div>
   <div class="jw-container">
-    <div class="jw-page-hero-content">
-      <nav class="jw-breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
+    <div class="jw-page-hero-content jw-stagger">
+      <nav class="jw-breadcrumb jw-reveal jw-reveal-bottom" aria-label="Breadcrumb">
+        <a href="<?php echo $jw_base; ?>/">Home</a>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         <span>Contact Us</span>
       </nav>
-      <h1>Connect with <span>Aabhar</span></h1>
-      <div class="jw-ornament" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
-      <p class="jw-page-hero-sub">Visit our flagship showroom on Science City Road or book a private appointment with our master jewellery consultants.</p>
+      <h1 class="jw-reveal jw-reveal-bottom">Connect with <span>Aabhar</span></h1>
+      <div class="jw-ornament jw-reveal jw-reveal-bottom" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
+      <p class="jw-page-hero-sub jw-reveal jw-reveal-bottom">Visit our flagship showroom on Science City Road or book a private appointment with our master jewellery consultants.</p>
     </div>
   </div>
 </section>
@@ -202,7 +196,7 @@ include(__DIR__ . '/inc/header.php');
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </a>
       </div>
-      <iframe class="jw-map-frame" src="https://maps.google.com/maps?q=Science%20City%20Road,%20Ahmedabad,%20Gujarat&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Aabhar Fine Jewellery Showroom Location Ahmedabad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe class="jw-map-frame" src="<?php echo $brand_maps; ?>&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Aabhar Fine Jewellery Showroom Location Ahmedabad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>

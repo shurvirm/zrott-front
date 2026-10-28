@@ -26,14 +26,6 @@ $img_prod4   = $img . '/product-4.webp';
 $img_prod5   = $img . '/product-5.webp';
 $img_prod6   = $img . '/product-6.webp';
 
-// ── Configurable Contact Info (easy to replace for client) ──
-$brand_name   = 'Aabhar Fine Jewellery';
-$brand_phone  = '+91 123-456-7890';
-$brand_email  = 'aabharjewellery@zrott.com';
-$brand_addr   = 'Science City Road, Ahmedabad, Gujarat, India';
-$brand_insta  = '@aabharjewellery';
-$brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
-$brand_wa     = 'https://wa.me/911234567890';
 
 // Load header
 include('inc/header.php');
@@ -332,7 +324,7 @@ include('inc/header.php');
     <div class="jw-heritage-grid">
 
       <div class="jw-heritage-text jw-reveal-left">
-        <h2>The Legacy of Ahmedabad<br><span>in Every Design</span></h2>
+        <h2>The Legacy of Ahmedabad<br><span class="text-highlight">in Every Design</span></h2>
         <p class="jw-heritage-desc">
           Inspired by the rich culture, architecture and vibrant traditions of Ahmedabad, our jewellery brings together heritage and modern elegance in every creation.
         </p>
@@ -455,13 +447,13 @@ include('inc/header.php');
      ═══════════════════════════════════════════════════ -->
 <section class="jw-reels" id="reels" aria-label="Jewellery in Motion — Instagram Reels">
   <div class="jw-container">
-    <h2 class="jw-section-title jw-reveal">Jewellery in Motion</h2>
+    <h2 class="jw-section-title jw-reveal">Jewellery in <span class="text-highlight">Motion</span></h2>
     <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
     <p class="jw-section-subtitle jw-reveal">Watch our latest designs, styling tips and behind-the-scenes moments on Instagram Reels</p>
 
     <div class="jw-reels-header jw-reveal">
       <span>Follow <?php echo $brand_insta; ?></span>
-      <a href="#" class="ig-badge" aria-label="Follow on Instagram" rel="noopener noreferrer">
+      <a href="<?php echo $brand_insta_url; ?>" target="_blank" class="ig-badge" aria-label="Follow on Instagram" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/></svg>
         Instagram
       </a>
@@ -581,7 +573,7 @@ include('inc/header.php');
             </div>
             <span>Visit Website</span>
           </a>
-          <a href="#" class="jw-qr-link" rel="noopener noreferrer">
+          <a href="<?php echo $brand_insta_url; ?>" class="jw-qr-link" rel="noopener noreferrer">
             <div class="jw-qr-link-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </div>
@@ -609,8 +601,10 @@ include('inc/header.php');
       </div>
 
       <div class="jw-qr-right">
-        <!-- QR Placeholder — replace with actual QR code image pointing to desired URL -->
-        <div class="jw-qr-placeholder" aria-label="QR Code placeholder — replace with actual QR code"></div>
+        <!-- QR Placeholder -->
+        <div class="jw-qr-placeholder" aria-label="QR Code">
+          <img src="<?php echo $jw_base; ?>/img/qr-code.png"/>
+        </div>
         <div class="jw-qr-label">Scan Me</div>
         <div class="jw-qr-sublabel">All Our Links in One Place</div>
       </div>
@@ -626,16 +620,17 @@ include('inc/header.php');
 <section class="jw-store" id="store" aria-label="Visit our store in Ahmedabad">
   <div class="jw-container">
     <div class="jw-store-content">
-      <h2 class="jw-section-title jw-reveal">Visit Our Store in Ahmedabad</h2>
+      <h2 class="jw-section-title jw-reveal">Visit Our Store in <span class="text-highlight">Ahmedabad</span></h2>
       <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
       <p class="jw-section-subtitle jw-reveal">Experience our exclusive collection in person. Get personalised assistance from our jewellery experts.</p>
 
       <div class="jw-store-img jw-reveal-scale">
-        <!-- <img src="<?php echo $img_banner; ?>" alt="Aabhar Fine Jewellery store in Ahmedabad" width="800" height="350" loading="lazy"> -->
-         <iframe class="jw-map-frame" src="https://maps.google.com/maps?q=AS+Technolabs+-+A+Game+Development+Company&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Aabhar Fine Jewellery Showroom Location Ahmedabad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a href="<?php echo $brand_maps; ?>" target="_blank" rel="noopener noreferrer">
+          <img src="<?php echo $jw_base; ?>/img/visit-our-store.webp" alt="Aabhar Fine Jewellery store in Ahmedabad" width="800" height="350" loading="lazy">
+        </a>
       </div>
 
-      <div class="jw-store-features jw-reveal jw-stagger">
+      <!-- <div class="jw-store-features jw-reveal jw-stagger">
         <div class="jw-store-feat">
           <div class="jw-store-feat-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -657,12 +652,12 @@ include('inc/header.php');
           <strong>Exclusive</strong>
           <span>In-Store Collections</span>
         </div>
-      </div>
+      </div> -->
 
-      <a href="<?php echo $brand_maps; ?>" target="_blank" rel="noopener noreferrer" class="jw-btn jw-btn-gold jw-reveal">
+      <!-- <a href="<?php echo $brand_maps; ?>" target="_blank" rel="noopener noreferrer" class="jw-btn jw-btn-gold jw-reveal">
         Get Directions
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-      </a>
+      </a> -->
     </div>
   </div>
 </section>
