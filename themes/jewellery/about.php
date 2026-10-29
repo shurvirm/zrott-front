@@ -1,13 +1,13 @@
 <?php
 /**
- * Aabhar Fine Jewellery — About Us Page
+ * Zrott Jewellery — About Us Page
  * Dedicated story, artisan heritage, brand values, craft timeline, and Ahmedabad connection
  */
 
 // ── Page Meta ──
-$pageTitle = 'About Us — Aabhar Fine Jewellery | Ahmedabad Heritage & Artistry';
-$pageDescr = 'Learn the story behind Aabhar Fine Jewellery, crafting timeless gold, diamond & bridal masterpieces in Ahmedabad with authentic Indian artisan craftsmanship.';
-$pageKeywords = 'about Aabhar jewellery, Ahmedabad jewellery heritage, goldsmith Ahmedabad, jewellery craftsmanship Gujarat, bridal jewellery makers';
+$pageTitle = 'About Us — Zrott Jewellery | Ahmedabad Heritage & Artistry';
+$pageDescr = 'Learn the story behind Zrott Jewellery, crafting timeless gold, diamond & bridal masterpieces in Ahmedabad with authentic Indian artisan craftsmanship.';
+$pageKeywords = 'about Zrott jewellery, Ahmedabad jewellery heritage, goldsmith Ahmedabad, jewellery craftsmanship Gujarat, bridal jewellery makers';
 
 
 // Load header
@@ -22,8 +22,8 @@ $img_prod2   = $img . '/product-2.webp';
 $img_prod3   = $img . '/product-3.webp';
 
 // ── Configurable Contact Info ──
-$brand_name   = 'Aabhar Fine Jewellery';
-$brand_phone  = '+91 123-456-7890';
+$brand_name   = 'Zrott Jewellery';
+$brand_phone  = '+91 99045 78948';
 $brand_email  = 'aabharjewellery@zrott.com';
 $brand_addr   = 'Science City Road, Ahmedabad, Gujarat, India';
 $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
@@ -42,7 +42,7 @@ $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         <span>About Us</span>
       </nav>
-      <h1 class="jw-reveal jw-reveal-bottom">The Legacy of <span>Aabhar</span></h1>
+      <h1 class="jw-reveal jw-reveal-bottom">The Legacy of <span>Zrott Jewellery</span></h1>
       <div class="jw-ornament jw-reveal jw-reveal-bottom" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
       <p class="jw-page-hero-sub jw-reveal jw-reveal-bottom">Honoring generations of Ahmedabad's finest goldsmiths with timeless artistry, pristine hallmarked purity, and enduring devotion to your life's greatest moments.</p>
     </div>
@@ -62,11 +62,11 @@ $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
         <div class="jw-ornament" aria-hidden="true" style="margin: 0 0 20px 0;"><div class="jw-ornament-icon"></div></div>
         
         <p class="jw-about-lead">
-          For over three decades, Aabhar Fine Jewellery has celebrated the rich tapestry of Gujarati tradition, marrying regal craftsmanship with contemporary silhouettes.
+          For over three decades, Zrott Jewellery has celebrated the rich tapestry of Gujarati tradition, marrying regal craftsmanship with contemporary silhouettes.
         </p>
 
         <p>
-          Founded in the cultural heart of Ahmedabad, Aabhar began with a singular promise: to bring purity, authenticity, and heart to every piece of jewellery we create. From the ornate stone carvings of Sidi Saiyyed to the historic bustling alleys of Manek Chowk, our artisans draw inspiration from the soul of Gujarat.
+          Founded in the cultural heart of Ahmedabad, Zrott began with a singular promise: to bring purity, authenticity, and heart to every piece of jewellery we create. From the ornate stone carvings of Sidi Saiyyed to the historic bustling alleys of Manek Chowk, our artisans draw inspiration from the soul of Gujarat.
         </p>
 
         <p>
@@ -87,7 +87,7 @@ $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
 
       <div class="jw-reveal-right">
         <div class="jw-about-img-frame">
-          <img src="<?php echo $img_banner; ?>" alt="Aabhar Fine Jewellery craft story" width="600" height="450" loading="lazy">
+          <img src="<?php echo $img_banner; ?>" alt="Zrott Jewellery craft story" width="600" height="450" loading="lazy">
           <div class="jw-about-img-badge">
             <strong>35+</strong>
             <span>Years of Trust</span>
@@ -105,7 +105,7 @@ $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
      ═══════════════════════════════════════════════════ -->
 <section class="jw-values" id="values" aria-label="Our core values">
   <div class="jw-container">
-    <h2 class="jw-section-title jw-reveal">The Pillars of Aabhar</h2>
+    <h2 class="jw-section-title jw-reveal">The Pillars of Zrott Jewellery</h2>
     <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
     <p class="jw-section-subtitle jw-reveal">The timeless principles that guide every design, stone, and customer relationship</p>
 
@@ -294,7 +294,7 @@ $brand_maps   = 'https://maps.google.com/?q=Ahmedabad+Science+City+Road';
      ═══════════════════════════════════════════════════ -->
 <section class="jw-festive py-5 px-3" aria-label="Visit us call to action">
   <div class="jw-container">
-    <h2 class="jw-reveal">Experience the Sparkle of Aabhar</h2>
+    <h2 class="jw-reveal">Experience the Sparkle of Zrott Jewellery</h2>
     <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
     <p class="jw-reveal">Visit our flagship Ahmedabad showroom for a warm, personalized jewellery experience.</p>
     <div style="margin-top: 24px; display: inline-flex; gap: 14px; flex-wrap: wrap;" class="jw-reveal">

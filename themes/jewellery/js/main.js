@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════
-   AABHAR FINE JEWELLERY — JavaScript
+   ZROTT JEWELLERY — JavaScript
    Scrollspy, Reveal Animations, Mobile Menu, Favourites Modal, Video Modal
    ═══════════════════════════════════════════════════ */
 
@@ -271,7 +271,7 @@
       html += '    <span class="jw-fav-item-price">' + escapeHtml(it.price || '') + '</span>';
       html += '  </div>';
       html += '  <div class="jw-fav-item-actions">';
-      html += '    <a href="https://wa.me/911234567890?text=' + encodeURIComponent('Hello Aabhar, I am interested in ' + (it.name || 'this design') + ' (' + (it.price || '') + ')') + '" target="_blank" rel="noopener noreferrer" class="jw-fav-item-enquire" title="Enquire on WhatsApp">';
+      html += '    <a href="https://wa.me/919904578948?text=' + encodeURIComponent('Hello Zrott Jewellery, I am interested in ' + (it.name || 'this design') + ' (' + (it.price || '') + ')') + '" target="_blank" rel="noopener noreferrer" class="jw-fav-item-enquire" title="Enquire on WhatsApp">';
       html += '      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>';
       html += '      <span>Enquire</span>';
       html += '    </a>';
@@ -286,7 +286,7 @@
     // Update WhatsApp all link
     if (waBtn) {
       const names = items.map(function (it) { return it.name + ' (' + (it.price || '') + ')'; }).join(', ');
-      waBtn.href = 'https://wa.me/911234567890?text=' + encodeURIComponent('Hello Aabhar Fine Jewellery, I am interested in these designs from my favourites list: ' + names);
+      waBtn.href = 'https://wa.me/919904578948?text=' + encodeURIComponent('Hello Zrott Jewellery, I am interested in these designs from my favourites list: ' + names);
     }
 
     // Attach remove handlers

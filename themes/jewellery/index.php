@@ -1,6 +1,6 @@
 <?php
 /**
- * Aabhar Fine Jewellery — Single-Page Website
+ * Zrott Jewellery — Single-Page Website
  * All 17 sections: Header → Hero → Trust → Categories → Bridal → Trending →
  * Occasions → Custom → Heritage → Premium → Festive → Reels → Reviews →
  * QR → Store → Newsletter → Footer
@@ -10,9 +10,9 @@
  */
 
 // ── Page Meta ──
-$pageTitle = 'Aabhar Fine Jewellery — Jewellery that Celebrates Ahmedabad | Gold, Diamond, Silver & Bridal';
-$pageDescr = 'Discover exquisite gold, diamond, silver and bridal jewellery at Aabhar Fine Jewellery, Ahmedabad. Timeless designs with authentic Indian craftsmanship for every special moment.';
-$pageKeywords = 'jewellery Ahmedabad, gold jewellery Gujarat, diamond necklace, bridal jewellery Ahmedabad, temple jewellery India, silver jewellery, custom jewellery design, Aabhar Fine Jewellery';
+$pageTitle = 'Zrott Jewellery — Jewellery that Celebrates Ahmedabad | Gold, Diamond, Silver & Bridal';
+$pageDescr = 'Discover exquisite gold, diamond, silver and bridal jewellery at Zrott Jewellery, Ahmedabad. Timeless designs with authentic Indian craftsmanship for every special moment.';
+$pageKeywords = 'jewellery Ahmedabad, gold jewellery Gujarat, diamond necklace, bridal jewellery Ahmedabad, temple jewellery India, silver jewellery, custom jewellery design, Zrott Jewellery';
 
 // ── Image Paths (reuse 3 product images + 1 banner + 1 pattern) ──
 // Paths relative to this file's directory (themes/jewellery/)
@@ -37,7 +37,7 @@ include('inc/header.php');
      ═══════════════════════════════════════════════════ -->
 <section class="jw-hero" id="hero" aria-label="Hero banner">
   <div class="jw-hero-bg">
-    <img src="<?php echo $img_banner; ?>" alt="Aabhar Fine Jewellery — Traditional Indian bridal jewellery from Ahmedabad" width="1400" height="900" loading="eager" fetchpriority="high">
+    <img src="<?php echo $img_banner; ?>" alt="Zrott Jewellery — Traditional Indian bridal jewellery from Ahmedabad" width="1400" height="900" loading="eager" fetchpriority="high">
   </div>
   <div class="jw-hero-overlay"></div>
   <div class="jw-hero-decor" aria-hidden="true"></div>
@@ -626,7 +626,7 @@ include('inc/header.php');
 
       <div class="jw-store-img jw-reveal-scale">
         <a href="<?php echo $brand_maps; ?>" target="_blank" rel="noopener noreferrer">
-          <img src="<?php echo $jw_base; ?>/img/visit-our-store.webp" alt="Aabhar Fine Jewellery store in Ahmedabad" width="800" height="350" loading="lazy">
+          <img src="<?php echo $jw_base; ?>/img/visit-our-store.webp" alt="Zrott Jewellery store in Ahmedabad" width="800" height="350" loading="lazy">
         </a>
       </div>
 
@@ -682,7 +682,7 @@ include('inc/header.php');
 
     <div class="jw-newsletter-success" role="alert">
       <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;margin-right:6px;"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
-      Thank you! You've been subscribed to Aabhar Fine Jewellery updates.
+      Thank you! You've been subscribed to Zrott Jewellery updates.
     </div>
 
     <div class="jw-newsletter-perks jw-reveal jw-stagger">

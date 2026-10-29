@@ -1,13 +1,13 @@
 <?php
 /**
- * Aabhar Fine Jewellery — Contact Us Page
+ * Zrott Jewellery — Contact Us Page
  * Showroom directions, interactive consultation booking form, contact cards, map, and FAQs
  */
 
 // ── Page Meta ──
-$pageTitle = 'Contact Us — Aabhar Fine Jewellery | Store Location & Consultation Ahmedabad';
-$pageDescr = 'Get in touch with Aabhar Fine Jewellery in Ahmedabad. Visit our Science City Road showroom, book a bridal consultation, or enquire on WhatsApp.';
-$pageKeywords = 'contact Aabhar jewellery, jewellery store Ahmedabad Science City, bridal consultation Ahmedabad, buy gold jewellery Ahmedabad';
+$pageTitle = 'Contact Us — Zrott Jewellery | Store Location & Consultation Ahmedabad';
+$pageDescr = 'Get in touch with Zrott Jewellery in Ahmedabad. Visit our Science City Road showroom, book a bridal consultation, or enquire on WhatsApp.';
+$pageKeywords = 'contact Zrott jewellery, jewellery store Ahmedabad Science City, bridal consultation Ahmedabad, buy gold jewellery Ahmedabad';
 
 // ── Image Paths ──
 $img = 'img';
@@ -35,7 +35,7 @@ include(__DIR__ . '/inc/header.php');
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         <span>Contact Us</span>
       </nav>
-      <h1 class="jw-reveal jw-reveal-bottom">Connect with <span>Aabhar</span></h1>
+      <h1 class="jw-reveal jw-reveal-bottom">Connect with <span>Zrott Jewellery</span></h1>
       <div class="jw-ornament jw-reveal jw-reveal-bottom" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
       <p class="jw-page-hero-sub jw-reveal jw-reveal-bottom">Visit our flagship showroom on Science City Road or book a private appointment with our master jewellery consultants.</p>
     </div>
@@ -188,7 +188,7 @@ include(__DIR__ . '/inc/header.php');
     <div class="jw-map-card jw-reveal">
       <div class="jw-map-header">
         <div>
-          <h3 style="font-family: var(--font-heading); font-size: 1.2rem; color: var(--brown); margin-bottom: 2px;">Aabhar Fine Jewellery Showroom</h3>
+          <h3 style="font-family: var(--font-heading); font-size: 1.2rem; color: var(--brown); margin-bottom: 2px;">Zrott Jewellery Showroom</h3>
           <p style="font-size: 0.82rem; color: var(--text-muted); margin: 0;"><?php echo $brand_addr; ?></p>
         </div>
         <a href="<?php echo $brand_maps; ?>" target="_blank" rel="noopener noreferrer" class="jw-btn jw-btn-emerald jw-btn-sm">
@@ -196,7 +196,7 @@ include(__DIR__ . '/inc/header.php');
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </a>
       </div>
-      <iframe class="jw-map-frame" src="<?php echo $brand_maps; ?>&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Aabhar Fine Jewellery Showroom Location Ahmedabad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe class="jw-map-frame" src="<?php echo $brand_maps; ?>&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Zrott Jewellery Showroom Location Ahmedabad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
@@ -264,7 +264,7 @@ include(__DIR__ . '/inc/header.php');
         </div>
         <div class="jw-faq-body">
           <div class="jw-faq-body-inner">
-            We provide transparent lifetime exchange and buyback on all Aabhar jewellery. Gold value is calculated at prevailing market rates with zero deduction on gold weight, accompanied by certificate verification.
+            We provide transparent lifetime exchange and buyback on all Zrott jewellery. Gold value is calculated at prevailing market rates with zero deduction on gold weight, accompanied by certificate verification.
           </div>
         </div>
       </div>

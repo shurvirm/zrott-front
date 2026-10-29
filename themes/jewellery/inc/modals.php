@@ -1,6 +1,6 @@
 <?php
 /**
- * Aabhar Fine Jewellery — Reusable Modals
+ * Zrott Jewellery — Reusable Modals
  * Included in inc/footer.php for site-wide availability
  * 1. Favourites / Wishlist Modal
  * 2. Instagram Reel Video Modal
@@ -48,7 +48,7 @@
 
     <div class="jw-modal-footer" id="jw-fav-footer" style="display:none;">
       <button type="button" class="jw-btn jw-btn-outline jw-btn-sm" id="jw-fav-clear-btn">Clear All</button>
-      <a href="https://wa.me/911234567890?text=Hello%20Aabhar%20Fine%20Jewellery,%20I%20am%20interested%20in%20these%20designs%20from%20my%20favourites%20list" id="jw-fav-wa-btn" target="_blank" rel="noopener noreferrer" class="jw-btn jw-btn-emerald jw-btn-sm">
+      <a href="https://wa.me/919904578948?text=Hello%20Zrott%20Jewellery,%20I%20am%20interested%20in%20these%20designs%20from%20my%20favourites%20list" id="jw-fav-wa-btn" target="_blank" rel="noopener noreferrer" class="jw-btn jw-btn-emerald jw-btn-sm">
         Enquire via WhatsApp
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
       </a>
