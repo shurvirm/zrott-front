@@ -15,6 +15,8 @@ $site_email = 'hi@zrott.com';
 $site_phone = '9904578948';
 $site_phone_display = '+91 99045 78948';
 $site_whatsapp = 'https://wa.me/919904578948';
+$site_insta = 'https://instagram.com/getzrott/';
+$site_youtube = 'https://youtube.com/@getZrott';
 $site_address = 'Gujarat, India (Operating Worldwide)';
 $site_lang = 'en';
 
@@ -26,6 +28,13 @@ $current_url = $root . ($_SERVER['REQUEST_URI'] ?? '/');
 $seo_logo = $root . '/img/zrott-crm-link-in-bio-websites.webp';
 $ogImage = $seo_logo;
 $favicon_hd = $root . '/img/logo.webp';
+
+$current_host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+if(strpos($current_host, 'zrott.com') !== false){
+  $isLiveLocal = 'live';
+}else{
+  $isLiveLocal = 'local';
+}
 
 // Dynamic contact link depending on originating page
 $current_from = $pageId ?? 'home';

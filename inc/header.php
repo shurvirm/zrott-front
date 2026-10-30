@@ -66,8 +66,8 @@
         <link href="<?php echo $root; ?>/css/bootstrap-5.3.8.min.css" rel="stylesheet" />
         <link href="<?php echo $root; ?>/css/theme-tokens.css" rel="stylesheet" />
         <link href="<?php echo $root; ?>/css/index.css" rel="stylesheet" />
-        <link href="<?php echo $root; ?>/css/front.css" rel="stylesheet" />
-        <link href="<?php echo $root; ?>/css/bio.css" rel="stylesheet" />
+        <link href="<?php echo $root; ?>/css/front.css?=1" rel="stylesheet" />
+        <link href="<?php echo $root; ?>/css/bio.css?=1" rel="stylesheet" />
 
         <!-- Pre-paint Theme Init (Avoid Flicker) -->
         <script>
@@ -79,6 +79,7 @@
             })();
         </script>
 
+        <?php if($isLiveLocal == 'live'): ?>
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LR1FSTMJ6H"></script>
         <script>
@@ -88,6 +89,7 @@
 
             gtag('config', 'G-LR1FSTMJ6H');
         </script>
+        <?php endif; ?>
 
         <!-- Iconify -->
         <script src="https://code.iconify.design/iconify-icon/2.3.0/iconify-icon.min.js"></script>
