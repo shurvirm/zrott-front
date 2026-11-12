@@ -45,7 +45,7 @@
         <meta name="ICBM" content="23.0225, 72.5714" />
 
         <!-- Favicon -->
-        <link rel="apple-touch-icon" href="<?php echo $root; ?>/img/logo.webp" />
+        <link rel="apple-touch-icon" href="<?php echo $root; ?>/img/favicon.ico" />
         <link rel="shortcut icon" href="<?php echo $root; ?>/img/favicon.ico">
         <link rel="icon" href="<?php echo $root; ?>/img/favicon.ico" type="image/x-icon" />
 
