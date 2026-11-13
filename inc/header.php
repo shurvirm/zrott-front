@@ -67,7 +67,7 @@
         <link href="<?php echo $root; ?>/css/theme-tokens.css" rel="stylesheet" />
         <link href="<?php echo $root; ?>/css/index.css" rel="stylesheet" />
         <link href="<?php echo $root; ?>/css/front.css?=1" rel="stylesheet" />
-        <link href="<?php echo $root; ?>/css/bio.css?=1" rel="stylesheet" />
+        <link href="<?php echo $root; ?>/css/bio.css?=2" rel="stylesheet" />
 
         <!-- Pre-paint Theme Init (Avoid Flicker) -->
         <script>

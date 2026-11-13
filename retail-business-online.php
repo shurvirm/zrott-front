@@ -40,7 +40,7 @@ include('inc/header.php');
 
 <div class="front-page-wrapper font-secondary">
     <main>
-        <!-- ─── 1. Hero Section ─── -->
+        <!-- --- 1. Hero Section --- -->
         <section class="retail-hero-section bio-hero">
             <div class="bio-hero-glow-1"></div>
             <div class="bio-hero-glow-2"></div>
@@ -167,7 +167,7 @@ include('inc/header.php');
                     </div>
                 </div>
 
-                <!-- ─── 2. Feature Quick-Pills / Highlights Row ─── -->
+                <!-- --- 2. Feature Quick-Pills / Highlights Row --- -->
                 <div class="retail-quick-strip">
                     <div class="retail-quick-item">
                         <div class="retail-quick-icon-wrap bg-light-green">
@@ -214,7 +214,7 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 3. Dual Showcase: Business Owners vs Customers ─── -->
+        <!-- --- 3. Dual Showcase: Business Owners vs Customers --- -->
         <section id="how-it-works" class="retail-showcase-section">
             <div class="front-container">
                 <div class="section-header-center" style="margin-bottom: 36px;">
@@ -464,7 +464,7 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 4. Perfect for All Types of Local Businesses ─── -->
+        <!-- --- 4. Perfect for All Types of Local Businesses --- -->
         <section class="retail-types-section">
             <div class="front-container">
                 <div class="section-header-center">
@@ -544,7 +544,7 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 5. Why Choose Zrott Retail & Blue Promo Banner ─── -->
+        <!-- --- 5. Why Choose Zrott Retail & Blue Promo Banner --- -->
         <section class="retail-why-section">
             <div class="front-container">
                 <div class="retail-why-split">
@@ -667,7 +667,7 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 6. In-Depth Retailer Advantage & Narrative ─── -->
+        <!-- --- 6. In-Depth Retailer Advantage & Narrative --- -->
         <section class="section-showcase-split" style="padding-top: 30px; padding-bottom: 50px;">
             <div class="front-container">
                 <div class="showcase-grid">
@@ -730,16 +730,16 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 7. Simple Transparent Pricing ─── -->
+        <!-- --- 7. Simple Transparent Pricing --- -->
         <?php include('inc/pricing-section.php'); ?>
 
-        <!-- ─── 8. The Smarter Way ─── -->
+        <!-- --- 8. The Smarter Way --- -->
         <?php // include('inc/smart-way.php'); ?>
 
-        <!-- ─── 9. Loved by Local Business Owners ─── -->
+        <!-- --- 9. Loved by Local Business Owners --- -->
         <?php include('inc/testimonials.php'); ?>
 
-        <!-- ─── 10. Frequently Asked Questions ─── -->
+        <!-- --- 10. Frequently Asked Questions --- -->
         <section id="faq" class="section-faq">
             <div class="front-container">
                 <div class="section-header-center">
@@ -844,7 +844,10 @@ include('inc/header.php');
             </div>
         </section>
 
-        <!-- ─── 11. Bottom Call to Action ─── -->
+        <!-- --- EXPLORE ZROTT RETAIL --- -->
+        <?php include('inc/explore-links.php'); ?>
+
+        <!-- --- 11. Bottom Call to Action --- -->
         <?php include('inc/footer-cta.php'); ?>
     </main>
 
