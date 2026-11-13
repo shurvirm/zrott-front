@@ -1,12 +1,12 @@
 <?php
 $pageId = 'retail';
 $which_page = "retail";
-$pageTitle = 'Take Your Local Business Online & Reach More Customers — Zrott | Retail';
+$pageTitle = 'Take Your Local Business Online & Reach More Customers - Zrott | Retail';
 $pageDescr = 'The simple, zero-commission digital store platform for Kirana stores, beauty parlours, retail shops, and local businesses. Accept Cash on Delivery (COD), share on WhatsApp, and sell directly.';
 $pageKeyword = 'retail business online, local business online store, kirana online store software, digital catalog COD, retail store website India, zero commission retail, whatsapp store India';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/retail-business-online" />';
+$canonical = '<link rel="canonical" href="' . $root . '/retail-business-online/" />';
 
 $schema_tags = '<script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -62,7 +62,7 @@ include('inc/header.php');
                         </h1>
 
                         <p class="retail-hero-desc">
-                            A simple and powerful platform for Kirana stores, beauty parlours, retail shops and local businesses to showcase products or services, receive orders and grow — with zero technical knowledge.
+                            A simple and powerful platform for Kirana stores, beauty parlours, retail shops and local businesses to showcase products or services, receive orders and grow - with zero technical knowledge.
                         </p>
 
                         <div class="hero-cta-group">
@@ -265,7 +265,7 @@ include('inc/header.php');
                                     <div class="check-circle-blue">
                                         <i data-lucide="check" width="13" height="13"></i>
                                     </div>
-                                    <span><strong>No technical knowledge required</strong> — simple Hindi &amp; English intuitive design.</span>
+                                    <span><strong>No technical knowledge required</strong> - simple Hindi &amp; English intuitive design.</span>
                                 </li>
                                 <li class="retail-check-item">
                                     <div class="check-circle-blue">
@@ -363,7 +363,7 @@ include('inc/header.php');
                             <h3 class="retail-card-title">Let your customers shop from your store</h3>
                             
                             <p style="font-size: 0.92rem; color: #64748b; line-height: 1.55; margin-bottom: 18px;">
-                                Give your neighborhood buyers a lightning-fast digital storefront. No heavy app downloads — they open your link, add items, and checkout in seconds.
+                                Give your neighborhood buyers a lightning-fast digital storefront. No heavy app downloads - they open your link, add items, and checkout in seconds.
                             </p>
 
                             <ul class="retail-check-list">

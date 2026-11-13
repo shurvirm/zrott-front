@@ -1,12 +1,12 @@
 <?php
 $pageId = 'contact';
 $which_page = "contact";
-$pageTitle = 'Contact Us — Direct WhatsApp, Phone Call & Email Support | Zrott';
+$pageTitle = 'Contact Us - Direct WhatsApp, Phone Call & Email Support | Zrott';
 $pageDescr = 'Skip the form queues. Contact Zrott directly via WhatsApp (+91 99045 78948), direct call, or email (hi@zrott.com). Fast response under 15 minutes.';
 $pageKeyword = 'contact Zrott, Zrott WhatsApp support, restaurant POS support, Zrott phone number, customer care Zrott, digital menu support, Gujarat startup contact';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/contact" />';
+$canonical = '<link rel="canonical" href="' . $root . '/contact/" />';
 
 // Search params resolution
 $rawFrom = $_GET['from'] ?? '';

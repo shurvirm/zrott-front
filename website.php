@@ -1,12 +1,12 @@
 <?php
 $pageId = 'website';
 $which_page = "website";
-$pageTitle = 'Make your offline business to online with our website plan with Custom Domain — Zrott | Website';
+$pageTitle = 'Make your offline business to online with our website plan with Custom Domain - Zrott | Website';
 $pageDescr = 'Launch your business website in 60 seconds with an instant subdomain (yourbrand.zrott.com), Google My Business sync, and custom domain connection.';
 $pageKeyword = 'business website builder, subdomain website, Google My Business website, local business website builder, custom domain India';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/website" />';
+$canonical = '<link rel="canonical" href="' . $root . '/website/" />';
 
 $schema_tags = '<script type="application/ld+json">{
   "@context": "https://schema.org",

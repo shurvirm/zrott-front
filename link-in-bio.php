@@ -1,12 +1,12 @@
 <?php
 $pageId = 'bio';
 $which_page = "bio";
-$pageTitle = 'Zrott | Bio — One Link. All Your Possibilities.';
-$pageDescr = 'Create a beautiful, customizable link in bio page to share your content, products, services and capture leads — all in one link.';
+$pageTitle = 'Zrott | Bio - One Link. All Your Possibilities.';
+$pageDescr = 'Create a beautiful, customizable link in bio page to share your content, products, services and capture leads - all in one link.';
 $pageKeyword = 'Zrott Bio, link in bio, bio link builder, Instagram link in bio, TikTok bio link, creator tools, linktree alternative India';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/bio" />';
+$canonical = '<link rel="canonical" href="' . $root . '/link-in-bio/" />';
 
 include('inc/header.php');
 ?>
@@ -34,7 +34,7 @@ include('inc/header.php');
 
                     <p class="bio-hero-sub">
                         Create a beautiful, customizable link in bio page to share your content, products,
-                        services and more — all in one place.
+                        services and more - all in one place.
                     </p>
 
                     <ul class="bio-hero-checks">
@@ -516,7 +516,7 @@ include('inc/header.php');
                         Turn followers into <span class="text-gradient">real opportunities</span>
                     </h2>
                     <p class="section-subtitle">
-                        More than just links — capture leads, grow your audience and track what works with
+                        More than just links - capture leads, grow your audience and track what works with
                         powerful analytics.
                     </p>
 

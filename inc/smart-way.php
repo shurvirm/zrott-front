@@ -3,7 +3,7 @@
         <div class="section-header-center">
             <h2 class="section-title">A Smarter Way to Run Your Business</h2>
             <p class="section-subtitle">
-                From attracting customers to building loyalty — Zrott helps you at every step.
+                From attracting customers to building loyalty - Zrott helps you at every step.
             </p>
         </div>
 

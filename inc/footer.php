@@ -43,7 +43,7 @@
             <div class="footer-col">
                 <h4 class="footer-col-title">Company</h4>
                 <ul class="footer-nav-list">
-                    <li><a href="<?php echo $root; ?>/about">About Us</a></li>
+                    <li><a href="<?php echo $root; ?>/about/">About Us</a></li>
                     <li><a href="<?php echo $contactHref; ?>">Contact</a></li>
                     <li><a href="<?php echo $root; ?>/#">Blog</a></li>
                     <li><a href="<?php echo $root; ?>/#">Careers</a></li>

@@ -1,12 +1,12 @@
 <?php
 $pageId = 'crm';
 $which_page = "crm";
-$pageTitle = 'Restaurant CRM, KDS & QR Menu Platform — Zrott | CRM';
+$pageTitle = 'Restaurant CRM, KDS & QR Menu Platform - Zrott | CRM';
 $pageDescr = 'Kitchen Display System (KDS), digital QR menus, table booking, POS, billing, and customer loyalty programs for modern restaurants and cafes across India.';
 $pageKeyword = 'restaurant CRM, restaurant POS, Kitchen Display System, KDS software, digital QR menu, table booking system, cafe software India';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/crm-for-restaurants" />';
+$canonical = '<link rel="canonical" href="' . $root . '/crm-for-restaurants/" />';
 $seo_logo = $root . '/img/zrott-best-software-for-restaurants.webp';
 
 $schema_tags = '<script type="application/ld+json">{
@@ -61,7 +61,7 @@ include('inc/header.php');
 
                         <p class="hero-subhead">
                             Kitchen Display System (KDS), digital QR menus, table booking,
-                            billing, and customer loyalty — all in one unified platform.
+                            billing, and customer loyalty - all in one unified platform.
                         </p>
 
                         <div class="hero-cta-group">

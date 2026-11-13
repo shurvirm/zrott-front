@@ -37,7 +37,7 @@ if ($pricing_accent === 'teal') {
         <div class="text-center mb-5">
             <p class="section-eyebrow">Simple, Transparent Pricing</p>
             <h2 class="section-heading">Choose the Plan<br><span class="<?php echo $text_grad_class; ?>">That Fits You</span></h2>
-            <p class="section-sub mx-auto">All plans include full access — unlimited users, modules & support. No hidden fees.</p>
+            <p class="section-sub mx-auto">All plans include full access - unlimited users, modules & support. No hidden fees.</p>
         </div>
 
         <!-- Toggle pill -->

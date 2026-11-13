@@ -1,12 +1,12 @@
 <?php
 $pageId = 'about';
 $which_page = "about";
-$pageTitle = 'About Us — Empowering Local Businesses to Thrive | Zrott';
+$pageTitle = 'About Us - Empowering Local Businesses to Thrive | Zrott';
 $pageDescr = 'Discover the story behind Zrott. Built to democratize enterprise-grade digital ordering, QR menus, and customer loyalty for restaurants, salons, and retail shops.';
 $pageKeyword = 'about Zrott, local commerce platform, restaurant tech, salon booking software, digital commerce India, Gujarat tech startup, QR menu software';
 
 include('inc/db.php');
-$canonical = '<link rel="canonical" href="' . $root . '/about" />';
+$canonical = '<link rel="canonical" href="' . $root . '/about/" />';
 
 $schema_tags = '<script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -59,7 +59,7 @@ include('inc/header.php');
                 </h1>
 
                 <p class="contact-subtitle">
-                    We started Zrott with a simple conviction: small and medium businesses deserve the same enterprise-grade digital ordering, appointment booking, and customer loyalty tools that multi-billion dollar chains use — without the complexity, steep commissions, or proprietary hardware.
+                    We started Zrott with a simple conviction: small and medium businesses deserve the same enterprise-grade digital ordering, appointment booking, and customer loyalty tools that multi-billion dollar chains use - without the complexity, steep commissions, or proprietary hardware.
                 </p>
 
                 <div class="contact-channels-meta">
@@ -163,7 +163,7 @@ include('inc/header.php');
                         </li>
                         <li class="about-tab-feature-item">
                             <i data-lucide="check-circle-2" style="color: #10b981;"></i>
-                            <span>Zero learning curve — operational in under 15 minutes</span>
+                            <span>Zero learning curve - operational in under 15 minutes</span>
                         </li>
                     </ul>
                 </div>
@@ -188,7 +188,7 @@ include('inc/header.php');
                 <div>
                     <h3 class="about-tab-lead">A hyper-connected local commerce ecosystem built on trust &amp; speed.</h3>
                     <p class="about-tab-description">
-                        We envision a future where walking into your favorite restaurant, spa, or store is an effortlessly delightful digital experience — from smart QR ordering to personalized loyalty rewards that actually matter.
+                        We envision a future where walking into your favorite restaurant, spa, or store is an effortlessly delightful digital experience - from smart QR ordering to personalized loyalty rewards that actually matter.
                     </p>
                     <ul class="about-tab-feature-list">
                         <li class="about-tab-feature-item">

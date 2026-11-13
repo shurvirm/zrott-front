@@ -1,11 +1,11 @@
 <?php
 /**
- * Zrott Jewellery — About Us Page
+ * Zrott Jewellery - About Us Page
  * Dedicated story, artisan heritage, brand values, craft timeline, and Ahmedabad connection
  */
 
 // ── Page Meta ──
-$pageTitle = 'About Us — Zrott Jewellery | Ahmedabad Heritage & Artistry';
+$pageTitle = 'About Us - Zrott Jewellery | Ahmedabad Heritage & Artistry';
 $pageDescr = 'Learn the story behind Zrott Jewellery, crafting timeless gold, diamond & bridal masterpieces in Ahmedabad with authentic Indian artisan craftsmanship.';
 $pageKeywords = 'about Zrott jewellery, Ahmedabad jewellery heritage, goldsmith Ahmedabad, jewellery craftsmanship Gujarat, bridal jewellery makers';
 

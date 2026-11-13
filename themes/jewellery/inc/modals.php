@@ -1,6 +1,6 @@
 <?php
 /**
- * Zrott Jewellery — Reusable Modals
+ * Zrott Jewellery - Reusable Modals
  * Included in inc/footer.php for site-wide availability
  * 1. Favourites / Wishlist Modal
  * 2. Instagram Reel Video Modal

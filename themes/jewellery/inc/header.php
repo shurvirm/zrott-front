@@ -1,6 +1,6 @@
 <?php
 /**
- * Zrott Jewellery — Header
+ * Zrott Jewellery - Header
  * Includes: Announcement bar, Logo, Nav, Mobile menu
  */
 
@@ -41,8 +41,8 @@ $brand_insta_url     = 'https://www.instagram.com/getzrott/';
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
 
-  <title><?php echo htmlspecialchars($pageTitle ?? 'Zrott Jewellery — Jewellery that Celebrates Ahmedabad'); ?></title>
-  <meta name="description" content="<?php echo htmlspecialchars($pageDescr ?? 'Discover timeless gold, diamond & silver jewellery crafted with authentic Ahmedabad heritage. Zrott Jewellery — for every special moment.'); ?>">
+  <title><?php echo htmlspecialchars($pageTitle ?? 'Zrott Jewellery - Jewellery that Celebrates Ahmedabad'); ?></title>
+  <meta name="description" content="<?php echo htmlspecialchars($pageDescr ?? 'Discover timeless gold, diamond & silver jewellery crafted with authentic Ahmedabad heritage. Zrott Jewellery - for every special moment.'); ?>">
   <meta name="keywords" content="<?php echo htmlspecialchars($pageKeywords ?? 'jewellery Ahmedabad, gold jewellery, diamond jewellery, bridal jewellery, temple jewellery, silver jewellery, Indian jewellery, Zrott'); ?>">
   <meta name="author" content="Zrott Jewellery">
   <meta name="theme-color" content="#103D2F">
@@ -52,7 +52,7 @@ $brand_insta_url     = 'https://www.instagram.com/getzrott/';
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle ?? 'Zrott Jewellery — Jewellery that Celebrates Ahmedabad'); ?>">
+  <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle ?? 'Zrott Jewellery - Jewellery that Celebrates Ahmedabad'); ?>">
   <meta property="og:description" content="<?php echo htmlspecialchars($pageDescr ?? 'Discover timeless gold, diamond & silver jewellery crafted with authentic Ahmedabad heritage.'); ?>">
   <meta property="og:image" content="<?php echo htmlspecialchars($ogImage ?? ''); ?>">
   <meta property="og:url" content="<?php echo htmlspecialchars($current_url ?? ''); ?>">
@@ -135,7 +135,7 @@ $brand_insta_url     = 'https://www.instagram.com/getzrott/';
     <div class="jw-announce-bar">
       <span>
         <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="vertical-align:-1px;display:inline-block;"><polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9"/></svg>
-        Free Personalised Consultation on All Orders — <strong>Visit Our Ahmedabad Store</strong>
+        Free Personalised Consultation on All Orders - <strong>Visit Our Ahmedabad Store</strong>
         <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor" style="vertical-align:-1px;display:inline-block;"><polygon points="12 2 15 9 22 12 15 15 12 22 9 15 2 12 9 9"/></svg>
       </span>
     </div>
@@ -143,7 +143,7 @@ $brand_insta_url     = 'https://www.instagram.com/getzrott/';
     <!-- Navigation Bar -->
     <nav class="jw-navbar" aria-label="Main navigation">
       <!-- Logo -->
-      <a href="<?php echo $jw_base; ?>" class="jw-logo" aria-label="Zrott Jewellery — Home">
+      <a href="<?php echo $jw_base; ?>" class="jw-logo" aria-label="Zrott Jewellery - Home">
         <div class="jw-logo-icon" aria-hidden="true"></div>
         <div class="jw-logo-text">
           <span class="jw-logo-brand">Zrott</span>

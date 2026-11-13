@@ -1,11 +1,11 @@
 <?php
 /**
- * Zrott Jewellery — Contact Us Page
+ * Zrott Jewellery - Contact Us Page
  * Showroom directions, interactive consultation booking form, contact cards, map, and FAQs
  */
 
 // ── Page Meta ──
-$pageTitle = 'Contact Us — Zrott Jewellery | Store Location & Consultation Ahmedabad';
+$pageTitle = 'Contact Us - Zrott Jewellery | Store Location & Consultation Ahmedabad';
 $pageDescr = 'Get in touch with Zrott Jewellery in Ahmedabad. Visit our Science City Road showroom, book a bridal consultation, or enquire on WhatsApp.';
 $pageKeywords = 'contact Zrott jewellery, jewellery store Ahmedabad Science City, bridal consultation Ahmedabad, buy gold jewellery Ahmedabad';
 

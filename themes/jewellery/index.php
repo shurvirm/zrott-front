@@ -1,16 +1,16 @@
 <?php
 /**
- * Zrott Jewellery — Single-Page Website
+ * Zrott Jewellery - Single-Page Website
  * All 17 sections: Header → Hero → Trust → Categories → Bridal → Trending →
  * Occasions → Custom → Heritage → Premium → Festive → Reels → Reviews →
  * QR → Store → Newsletter → Footer
  *
- * DEMO SITE — noindex/nofollow applied. Ready for client delivery with
+ * DEMO SITE - noindex/nofollow applied. Ready for client delivery with
  * placeholder content, images, prices, and contact info easily replaceable.
  */
 
 // ── Page Meta ──
-$pageTitle = 'Zrott Jewellery — Jewellery that Celebrates Ahmedabad | Gold, Diamond, Silver & Bridal';
+$pageTitle = 'Zrott Jewellery - Jewellery that Celebrates Ahmedabad | Gold, Diamond, Silver & Bridal';
 $pageDescr = 'Discover exquisite gold, diamond, silver and bridal jewellery at Zrott Jewellery, Ahmedabad. Timeless designs with authentic Indian craftsmanship for every special moment.';
 $pageKeywords = 'jewellery Ahmedabad, gold jewellery Gujarat, diamond necklace, bridal jewellery Ahmedabad, temple jewellery India, silver jewellery, custom jewellery design, Zrott Jewellery';
 
@@ -37,7 +37,7 @@ include('inc/header.php');
      ═══════════════════════════════════════════════════ -->
 <section class="jw-hero" id="hero" aria-label="Hero banner">
   <div class="jw-hero-bg">
-    <img src="<?php echo $img_banner; ?>" alt="Zrott Jewellery — Traditional Indian bridal jewellery from Ahmedabad" width="1400" height="900" loading="eager" fetchpriority="high">
+    <img src="<?php echo $img_banner; ?>" alt="Zrott Jewellery - Traditional Indian bridal jewellery from Ahmedabad" width="1400" height="900" loading="eager" fetchpriority="high">
   </div>
   <div class="jw-hero-overlay"></div>
   <div class="jw-hero-decor" aria-hidden="true"></div>
@@ -163,7 +163,7 @@ include('inc/header.php');
       </div>
 
       <div class="jw-bridal-img jw-reveal-right">
-        <img src="<?php echo $img_prod3; ?>" alt="Bridal jewellery collection — traditional Indian bridal sets" width="500" height="625" loading="lazy">
+        <img src="<?php echo $img_prod3; ?>" alt="Bridal jewellery collection - traditional Indian bridal sets" width="500" height="625" loading="lazy">
       </div>
 
     </div>
@@ -368,7 +368,7 @@ include('inc/header.php');
 
       <div class="jw-reveal-right">
         <div class="jw-heritage-img">
-          <img src="<?php echo $jw_base; ?>/img/heritage-ahmedabad.webp" alt="Ahmedabad heritage architecture — inspiration for our jewellery designs" width="600" height="400" loading="lazy">
+          <img src="<?php echo $jw_base; ?>/img/heritage-ahmedabad.webp" alt="Ahmedabad heritage architecture - inspiration for our jewellery designs" width="600" height="400" loading="lazy">
         </div>
         <blockquote class="jw-heritage-quote">
           "Ahmedabad's culture, our inspiration. Your moments, our jewellery."
@@ -434,7 +434,7 @@ include('inc/header.php');
 
     <a href="#categories" class="jw-reveal">
       <div class="jw-festive-img jw-reveal-scale">
-        <img src="<?php echo $jw_base; ?>/img/festive-collection.webp" alt="Festive jewellery collection — exclusive designs for celebrations" width="600" height="300" loading="lazy">
+        <img src="<?php echo $jw_base; ?>/img/festive-collection.webp" alt="Festive jewellery collection - exclusive designs for celebrations" width="600" height="300" loading="lazy">
       </div>
 
     </a>
@@ -445,7 +445,7 @@ include('inc/header.php');
 <!-- ═══════════════════════════════════════════════════
      12. INSTAGRAM REELS / JEWELLERY IN MOTION
      ═══════════════════════════════════════════════════ -->
-<section class="jw-reels" id="reels" aria-label="Jewellery in Motion — Instagram Reels">
+<section class="jw-reels" id="reels" aria-label="Jewellery in Motion - Instagram Reels">
   <div class="jw-container">
     <h2 class="jw-section-title jw-reveal">Jewellery in <span class="text-highlight">Motion</span></h2>
     <div class="jw-ornament jw-reveal" aria-hidden="true"><div class="jw-ornament-icon"></div></div>
@@ -466,7 +466,7 @@ include('inc/header.php');
         ['caption' => 'Temple Jewellery Heritage Vibes',  'img' => $img_prod1],
         ['caption' => 'Making of a Masterpiece',          'img' => $img_prod2],
         ['caption' => 'Festive Collection 2026',          'img' => $img_prod4],
-        ['caption' => 'Customer Stories — Real Moments',  'img' => $img_prod5],
+        ['caption' => 'Customer Stories - Real Moments',  'img' => $img_prod5],
       ];
       foreach ($reels as $reel): ?>
         <div class="jw-reel-card jw-reveal-scale" role="button" tabindex="0" data-video="<?php echo $img; ?>/reel.mp4" data-caption="<?php echo htmlspecialchars($reel['caption']); ?>" aria-label="Watch video: <?php echo htmlspecialchars($reel['caption']); ?>">

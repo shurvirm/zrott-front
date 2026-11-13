@@ -1,7 +1,7 @@
 <?php
 $pageId = 'index';
 $which_page = "home";
-$pageTitle = 'Zrott — Unified Growth Platform: Bio, CRM & Websites for Modern Businesses';
+$pageTitle = 'Zrott - Unified Growth Platform: Bio, CRM & Websites for Modern Businesses';
 $pageDescr = 'Empower your brand and business with Zrott. Link in bio pages, restaurant CRM & KDS ordering systems, and instant subdomain business websites.';
 $pageKeyword = 'Zrott, Zrott Bio, Zrott CRM, Zrott Website, link in bio, restaurant CRM, business website builder, KDS, digital menu India, Gujarat startup';
 
@@ -14,7 +14,7 @@ $schema_tags = '<script type="application/ld+json">{
   "@type": "SoftwareApplication",
   "name": "Zrott",
   "headline": "All-in-One Digital QR Menu, POS, Booking & Loyalty Platform",
-  "description": "Digital menus, websites, bookings, customer CRM, loyalty programs and more — everything you need in one powerful platform for modern businesses.",
+  "description": "Digital menus, websites, bookings, customer CRM, loyalty programs and more - everything you need in one powerful platform for modern businesses.",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "All (Web, iOS, Android)",
   "url": "' . $root . '",
@@ -289,7 +289,7 @@ include('inc/header.php');
                                 One Link. All Your Possibilities.
                             </p>
                             <p style="font-size: 0.95rem; color: #64748b; line-height: 1.65; margin: 0 0 22px;">
-                                Create a beautiful, customizable link in bio page to share your content, products, services, and capture leads — all in one link.
+                                Create a beautiful, customizable link in bio page to share your content, products, services, and capture leads - all in one link.
                             </p>
                             <ul style="list-style: none; padding: 0; margin: 0 0 28px; display: flex; flex-direction: column; gap: 10px;">
                                 <li style="display: flex; align-items: center; gap: 10px; font-size: 0.92rem; color: #1e293b;">

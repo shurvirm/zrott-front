@@ -173,7 +173,7 @@ $icon_colors = [
                                 <button type="submit" class="btn-saas-primary w-100"
                                     style="justify-content:center;padding:14px;font-size:1rem">
                                     <iconify-icon icon="solar:calendar-date-bold" width="18" height="18"></iconify-icon>
-                                    Send Message — We'll Reach Out in Few Minutes
+                                    Send Message - We'll Reach Out in Few Minutes
                                 </button>
                             </div>
 

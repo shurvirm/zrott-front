@@ -7,7 +7,7 @@ $cta_contact_href = $contactHref ?? ($root . '/contact?from=home');
             <div class="rocket-bubble">🚀</div>
             <h2 class="pre-footer-title">Ready to Grow Your Business?</h2>
             <p class="pre-footer-sub">
-                Join thousands of businesses already using Zrott. Start your free trial today — no credit card required.
+                Join thousands of businesses already using Zrott. Start your free trial today - no credit card required.
             </p>
             <a href="<?php echo $cta_contact_href; ?>" class="cta-secondary">
                 <span>Get Started Free</span>
