@@ -202,13 +202,13 @@ include('inc/header.php');
                                     <span>Integrated customer CRM with digital loyalty points</span>
                                 </li>
                             </ul>
-                            <a href="<?php echo $root; ?>/crm-for-restaurants" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
+                            <a href="<?php echo $root; ?>/crm-for-restaurants/" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
                                 <span>Explore Zrott | CRM</span>
                                 <i data-lucide="arrow-right"></i>
                             </a>
                         </div>
                         <div style="flex: 1 1 380px;">
-                            <a href="<?php echo $root; ?>/crm-for-restaurants" style="display: block; border-radius: 20px; overflow: hidden; text-decoration: none; position: relative;">
+                            <a href="<?php echo $root; ?>/crm-for-restaurants/" style="display: block; border-radius: 20px; overflow: hidden; text-decoration: none; position: relative;">
                                 <img src="<?php echo $root; ?>/img/banner-homepage.webp" alt="Zrott | CRM" style="width: 100%;  object-fit: cover; display: block;" />
                                 <div style="position: absolute; bottom: 14px; right: 14px; background: rgba(15, 15, 26, 0.85); backdrop-filter: blur(6px); color: #ffffff; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; display: flex; align-items: center; gap: 6px;">
                                     <span>View Product</span>
@@ -251,13 +251,13 @@ include('inc/header.php');
                                     <span>Built-in local SEO schema markup and mobile responsiveness</span>
                                 </li>
                             </ul>
-                            <a href="<?php echo $root; ?>/website" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
+                            <a href="<?php echo $root; ?>/website/" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
                                 <span>Explore Zrott | Website</span>
                                 <i data-lucide="arrow-right"></i>
                             </a>
                         </div>
                         <div style="flex: 1 1 380px;">
-                            <a href="<?php echo $root; ?>/website" style="display: block; border-radius: 20px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08); text-decoration: none; position: relative;">
+                            <a href="<?php echo $root; ?>/website/" style="display: block; border-radius: 20px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08); text-decoration: none; position: relative;">
                                 <img src="<?php echo $root; ?>/img/retail.webp" alt="Zrott | Website" style="width: 100%; object-fit: cover; display: block;" />
                                 <div style="position: absolute; bottom: 14px; right: 14px; background: rgba(15, 15, 26, 0.85); backdrop-filter: blur(6px); color: #ffffff; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; display: flex; align-items: center; gap: 6px;">
                                     <span>View Product</span>
@@ -270,7 +270,7 @@ include('inc/header.php');
                                         <!-- Product 1: Zrott | Bio -->
                     <div class="bio-product-showcase-card" style="background: #ffffff; border-radius: 28px; padding: 42px 38px; border: 1px solid rgba(124, 58, 237, 0.12); box-shadow: 0 14px 45px rgba(0, 0, 0, 0.04); display: flex; flex-direction: row; align-items: center; gap: 48px; flex-wrap: wrap; transition: all 0.3s ease;">
                         <div style="flex: 1 1 380px;">
-                            <a href="<?php echo $root; ?>/link-in-bio" style="display: block; border-radius: 20px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08); text-decoration: none; position: relative;">
+                            <a href="<?php echo $root; ?>/link-in-bio/" style="display: block; border-radius: 20px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 12px 36px rgba(0, 0, 0, 0.08); text-decoration: none; position: relative;">
                                 <img src="<?php echo $root; ?>/img/link-in-bio.webp" alt="Zrott | Bio" style="width: 100%;  object-fit: cover; display: block;" />
                                 <div style="position: absolute; bottom: 14px; right: 14px; background: rgba(15, 15, 26, 0.85); backdrop-filter: blur(6px); color: #ffffff; padding: 6px 14px; border-radius: 20px; font-size: 0.78rem; font-weight: 700; display: flex; align-items: center; gap: 6px;">
                                     <span>View Product</span>
@@ -309,7 +309,7 @@ include('inc/header.php');
                                     <span>Custom QR codes &amp; custom domain support (Pro)</span>
                                 </li>
                             </ul>
-                            <a href="<?php echo $root; ?>/link-in-bio" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
+                            <a href="<?php echo $root; ?>/link-in-bio/" class="front-btn-primary bio-btn-glow" style="padding: 12px 26px; font-size: 0.95rem; text-decoration: none;">
                                 <span>Explore Zrott | Bio</span>
                                 <i data-lucide="arrow-right"></i>
                             </a>

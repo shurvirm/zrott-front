@@ -14,7 +14,7 @@ $schema_tags = '<script type="application/ld+json">{
   "name": "Zrott Website Builder",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Web",
-  "url": "' . $root . '/website",
+  "url": "' . $root . '/website/",
   "description": "Instant subdomain websites and custom domain websites optimized for Google My Business and local SEO.",
   "publisher": {
     "@type": "Organization",

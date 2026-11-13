@@ -130,7 +130,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/website">
+                                <a class="dropdown-item" href="/website/">
                                     <div class="d-flex align-items-center gap-2">
                                         <div class="dd-icon orange"><iconify-icon icon="solar:laptop-minimalistic-bold"></iconify-icon></div>
                                         <div>
@@ -141,7 +141,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/link-in-bio">
+                                <a class="dropdown-item" href="/link-in-bio/">
                                     <div class="d-flex align-items-center gap-2">
                                         <div class="dd-icon purple"><iconify-icon icon="solar:user-bold"></iconify-icon></div>
                                         <div>
@@ -152,7 +152,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo $root; ?>/retail-business-online">
+                                <a class="dropdown-item" href="<?php echo $root; ?>/retail-business-online/">
                                     <div class="d-flex align-items-center gap-2">
                                         <div class="dd-icon pink"><iconify-icon icon="solar:shop-minimalistic-bold"></iconify-icon></div>
                                         <div>
@@ -165,7 +165,7 @@
 
                         </ul>
                     </div>
-                    <a href="<?php echo $root; ?>/about" class="nav-link <?php echo (($pageId ?? '') === 'about') ? 'active' : ''; ?>">About</a>
+                    <a href="<?php echo $root; ?>/about/" class="nav-link <?php echo (($pageId ?? '') === 'about') ? 'active' : ''; ?>">About</a>
                     <a href="<?php echo $contactHref; ?>" class="nav-link <?php echo (($pageId ?? '') === 'contact') ? 'active' : ''; ?>">Contact</a>
                 </nav>
 
@@ -195,11 +195,11 @@
                 <div class="mobile-links">
                     <a href="<?php echo $root; ?>/" class="mobile-nav-link">Home</a>
                     <div class="mobile-solutions-header">Solutions</div>
-                    <a href="<?php echo $root; ?>/crm-for-restaurants" class="mobile-solution-link">Restaurants &amp; Cafes</a>
-                    <a href="<?php echo $root; ?>/retail-business-online" class="mobile-solution-link">Retail &amp; Local Business</a>
-                    <a href="<?php echo $root; ?>/link-in-bio" class="mobile-solution-link">Creators &amp; Brands (Bio)</a>
-                    <a href="<?php echo $root; ?>/website" class="mobile-solution-link">Instant Subdomain Websites</a>
-                    <a href="<?php echo $root; ?>/about" class="mobile-nav-link">About</a>
+                    <a href="<?php echo $root; ?>/crm-for-restaurants/" class="mobile-solution-link">Restaurants &amp; Cafes</a>
+                    <a href="<?php echo $root; ?>/retail-business-online/" class="mobile-solution-link">Retail &amp; Local Business</a>
+                    <a href="<?php echo $root; ?>/link-in-bio/" class="mobile-solution-link">Creators &amp; Brands (Bio)</a>
+                    <a href="<?php echo $root; ?>/website/" class="mobile-solution-link">Instant Subdomain Websites</a>
+                    <a href="<?php echo $root; ?>/about/" class="mobile-nav-link">About</a>
                     <a href="<?php echo $contactHref; ?>" class="mobile-nav-link">Contact</a>
                 </div>
                 <div class="mobile-actions">

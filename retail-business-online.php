@@ -14,7 +14,7 @@ $schema_tags = '<script type="application/ld+json">{
   "name": "Zrott Retail",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "All (Web, iOS, Android)",
-  "url": "' . $root . '/retail-business-online",
+  "url": "' . $root . '/retail-business-online/",
   "description": "Zero-commission digital commerce platform for local retail shops, Kirana stores, salons, and Indian merchants.",
   "offers": {
     "@type": "AggregateOffer",
